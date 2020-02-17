@@ -1,12 +1,12 @@
-// const arrayGenerator = (num) => {
-//   let array = []
+const arrayGenerator = (num) => {
+  let array = []
 
-//   for (let i = 0; i < num; i++) {
-//     array.push(Math.floor(Math.random() * num + 1))
-//   }
+  for (let i = 0; i < num; i++) {
+    array.push(Math.floor(Math.random() * num + 1))
+  }
 
-//   return [...new Set(array)].sort((a, b) => a - b)
-// }
+  return [...new Set(array)].sort((a, b) => a - b)
+}
 
 const array = [
   1, 3, 4, 5, 7, 9, 10, 13, 14, 15, 16, 17,
