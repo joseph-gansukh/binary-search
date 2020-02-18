@@ -8,6 +8,8 @@ const arrayGenerator = (num) => {
   return [...new Set(array)].sort((a, b) => a - b)
 }
 
+const generatedArray = arrayGenerator()
+
 const array = [
   1, 3, 4, 5, 7, 9, 10, 13, 14, 15, 16, 17,
   19, 21, 22, 24, 25, 27, 30, 31, 33, 36, 39, 40,
